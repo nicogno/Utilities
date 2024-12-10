@@ -2,9 +2,9 @@ __________
 | .basrc |
 ----------
 alias squeuemy='squeue -u $(whoami) -o "%i %j %t %M %D %R"'
-alias lsmy='ls -ltrh'	# Show files with most recent at the bottom and human-readable format
-alias catlast='cat "$(ls -t | head -n 1)"'	# Print most recent file content
-alias nanolast='nano "$(ls -t | head -n 1)"'	# Read most recent file content
+alias lsmy='ls -ltrh'	(Show files with most recent at the bottom and human-readable format)
+alias catlast='cat "$(ls -t | head -n 1)"'	(Print most recent file content)
+alias nanolast='nano "$(ls -t | head -n 1)"'	(Read most recent file content)
 
 __________________
 | Monitor System |
